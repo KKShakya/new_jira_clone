@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow;
+}
+
+
+header .btn-B, .btn-R, .btn-G{
+    height: 50px;
+    width: 60px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60%;
+    border: none;
+
+}
+
+
+header .reset, .refresh{
+    margin-left: 30px;
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 80px;
+}
+
+header .btn-B{
+    margin-left: 30px;
+    background:blue;
+    padding: 10px;
+    width: 80px;
+}
+
+
+header .btn-R{
+    margin-left: 30px;
+    background:crimson;
+    padding: 10px;
+    width: 80px;
+}
+
+header .btn-G{
+    margin-left: 30px;
+    background:rgb(5, 211, 67);
+    padding: 10px;
+    width: 80px;
+}
+
+header .btn-B:hover, .btn-R:hover, .btn-G:hover, .reset:hover, .refresh:hover{
+    transform: scale(0.9);
+    top: -10px;
+}
+
+footer{
+   
+    margin-left: auto;
+  
+}
+main{
+    flex-wrap: wrap;
+    display: flex;
+}
+main>div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+}
